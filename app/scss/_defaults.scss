@@ -1,0 +1,56 @@
+
+// google fonts imported 
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800');
+
+// default font
+$font-default: 'Raleway', sans-serif;
+
+// default color of theme
+$primary-color: #e74c3c;
+
+// default color of theme
+$border-color: #9e2114;
+
+// title colors
+$title-color: #3a3d41;
+
+// text color
+$text-color: #999999;
+
+.heading1 {
+	color: $title-color;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0 0 10px;
+}
+
+.heading2 {
+	@extend .heading1;
+	font-size: 18px;
+}
+
+.paragraph {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	color: $text-color;
+	margin: 0 0 20px;
+}
+
+//variable for radius corners
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+//variable for transitions
+@mixin transition($speed) {
+    transition: all $speed ease-in-out;
+    -moz-transition: all $speed ease-in-out;
+    -webkit-transition: all $speed ease-in-out;
+    -o-transition: all $speed ease-in-out;
+}
+
+

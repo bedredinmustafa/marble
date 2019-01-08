@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800");
+.heading1, .heading2, a.btn-default, h1 {
+  color: #3a3d41;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 10px; }
+
+.heading2, a.btn-default {
+  font-size: 18px; }
+
+.paragraph, p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #999999;
+  margin: 0 0 20px; }
+
+body {
+  font-family: "Raleway", sans-serif; }
+
+a {
+  display: inline-block;
+  text-decoration: none !important; }
+
+a.btn-default {
+  color: #fff;
+  padding: 14px 50px;
+  background: #e74c3c;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  border-bottom: 3px solid #9e2114;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+  a.btn-default:hover {
+    opacity: 0.7; }
+
+header {
+  background: #fff; }
+  header .navbar {
+    background: transparent !important; }
+  header ul.navbar-nav > li > a {
+    color: #333333 !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 25px !important; }
+    header ul.navbar-nav > li > a:hover {
+      color: #e74c3c !important; }
+
+section.slider-section {
+  padding: 250px 0 50px;
+  background: #3a3d41 url("../upload/banners/slide1.jpg") center center;
+  background-size: cover;
+  text-align: center;
+  position: relative; }
+  section.slider-section .slider-content {
+    margin-bottom: 140px; }
+    section.slider-section .slider-content h1 {
+      color: #fff;
+      font-size: 60px; }
+    section.slider-section .slider-content p {
+      font-size: 18px;
+      color: #fff;
+      opacity: 0.8;
+      margin-bottom: 30px; }
+  section.slider-section .container {
+    position: relative;
+    z-index: 2; }
+
+section.slider-section:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); }

@@ -1,0 +1,34 @@
+section.slider-section {
+	padding: 250px 0 50px;
+	background: #3a3d41 url('../upload/banners/slide1.jpg') center center;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	.slider-content {
+		margin-bottom: 140px;
+		h1 {
+			color: #fff;
+			font-size: 60px;
+		}
+		p {
+			font-size: 18px;
+			color: #fff;
+			opacity: 0.8;
+			margin-bottom: 30px;
+		}
+	}
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+section.slider-section:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+}
