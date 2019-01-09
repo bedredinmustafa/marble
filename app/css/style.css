@@ -79,3 +79,33 @@ section.slider-section:after {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5); }
+
+.mission-post-single {
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+  border-top: 2px solid transparent; }
+  .mission-post-single:hover {
+    border-top: 2px solid tomato; }
+  .mission-post-single .mission-icon p {
+    color: #333333;
+    float: left;
+    line-height: 2;
+    background: #e74c3c;
+    font-size: 24px;
+    color: white;
+    padding: 0 20px;
+    border-radius: 50%; }
+    .mission-post-single .mission-icon p:hover {
+      background: #f9fafb;
+      color: #333; }
+  .mission-post-single .mission-post {
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 5px; }
+    .mission-post-single .mission-post h2 {
+      font-size: 18px; }
+  .mission-post-single .mission-underheading {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0; }
