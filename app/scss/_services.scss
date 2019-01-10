@@ -1,0 +1,36 @@
+.services .container-fluid{
+	padding: 0;
+	.row{
+	padding: 0;
+	margin: 0;
+	}
+
+}
+
+
+.reasons-header {
+	height: 200px;
+
+	h1 {
+		@extend .heading1;
+		padding-top: 70px;
+	}
+
+	h2{
+		@extend .heading2;
+		color: #999999;
+		font-weight: 300;
+	}
+}
+
+.services-container {
+	background: #3a3d41;
+	padding: 125px 0;
+	h1,p{
+		color: white!important;	
+	}
+	.services-post{
+		padding: 25px 0;
+	}
+	
+}

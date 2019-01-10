@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800");
-.heading1, .heading2, a.btn-default, h1 {
+.heading1, .heading2, a.btn-default, .reasons-header h2, h1, .reasons-header h1 {
   color: #3a3d41;
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 10px; }
 
-.heading2, a.btn-default {
+.heading2, a.btn-default, .reasons-header h2 {
   font-size: 18px; }
 
 .paragraph, p {
@@ -14,6 +14,20 @@
   line-height: 20px;
   color: #999999;
   margin: 0 0 20px; }
+
+.round-icon, .mission-holder .mission-post-single .mission-post-text span {
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e74c3c;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: 700; }
 
 body {
   font-family: "Raleway", sans-serif; }
@@ -80,32 +94,43 @@ section.slider-section:after {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5); }
 
-.mission-post-single {
-  color: white;
-  font-size: 18px;
+.our-mission {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 5px 20px 20px; }
+
+.mission-holder .mission-post-single {
   padding-top: 20px;
   border-top: 2px solid transparent; }
-  .mission-post-single:hover {
+  .mission-holder .mission-post-single:hover {
     border-top: 2px solid tomato; }
-  .mission-post-single .mission-icon p {
-    color: #333333;
-    float: left;
-    line-height: 2;
-    background: #e74c3c;
-    font-size: 24px;
-    color: white;
-    padding: 0 20px;
-    border-radius: 50%; }
-    .mission-post-single .mission-icon p:hover {
-      background: #f9fafb;
-      color: #333; }
-  .mission-post-single .mission-post {
+  .mission-holder .mission-post-single .mission-post-text span:hover {
+    background: #f9fafb;
+    color: #333; }
+  .mission-holder .mission-post-single .mission-post-text h2 {
+    font-size: 24px; }
+  .mission-holder .mission-post-single .mission-post-text h2, .mission-holder .mission-post-single .mission-post-text p {
     text-align: left;
-    padding-left: 80px;
-    padding-top: 5px; }
-    .mission-post-single .mission-post h2 {
-      font-size: 18px; }
-  .mission-post-single .mission-underheading {
-    font-size: 12px;
-    font-weight: 300;
+    margin: 0 0 0 65px;
+    color: white; }
+
+.services .container-fluid {
+  padding: 0; }
+  .services .container-fluid .row {
+    padding: 0;
     margin: 0; }
+
+.reasons-header {
+  height: 200px; }
+  .reasons-header h1 {
+    padding-top: 70px; }
+  .reasons-header h2 {
+    color: #999999;
+    font-weight: 300; }
+
+.services-container {
+  background: #3a3d41;
+  padding: 125px 0; }
+  .services-container h1, .services-container p {
+    color: white !important; }
+  .services-container .services-post {
+    padding: 25px 0; }

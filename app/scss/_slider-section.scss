@@ -33,39 +33,34 @@ section.slider-section:after {
 	background: rgba(0,0,0,0.5);
 }
 
-.mission-post-single {
-	color: white;
-	font-size: 18px;
-	padding-top: 20px;
-	border-top: 2px solid transparent;
-	&:hover{
-		border-top: 2px solid tomato;
-	}
-	.mission-icon p{
-		color: #333333;
-		float: left;
-		line-height: 2;
-		background: $primary-color;
-		font-size:  24px;
-		color: white;
-		padding: 0 20px;
-		border-radius: 50%;
+.our-mission {
+	background: rgba(0,0,0,0.5);
+	padding: 0 5px 20px 20px;
+}
+.mission-holder {
+	
+	.mission-post-single{
+		padding-top: 20px;
+		border-top: 2px solid transparent;
 		&:hover{
-			background: #f9fafb;
-			color: #333;
+		border-top: 2px solid tomato;
 		}
-	}
-	.mission-post{
-		text-align: left;
-		padding-left: 80px;
-		padding-top: 5px;
-		h2{
-			font-size: 18px;
+		.mission-post-text{
+			span {
+				@extend .round-icon;
+	    	&:hover{
+		    	background: #f9fafb;
+				color: #333;}
+			}
+			h2{
+			font-size: 24px;
+			}
+			h2,p {
+				text-align: left;
+				margin: 0 0 0 65px;
+				color: white;}
 		}
+		
 	}
-	.mission-underheading{
-		font-size: 12px;
-		font-weight: 300;
-		margin: 0;
-	}
+
 }
