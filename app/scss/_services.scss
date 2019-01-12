@@ -24,13 +24,72 @@
 }
 
 .services-container {
-	background: #3a3d41;
-	padding: 125px 0;
 	h1,p{
 		color: white!important;	
 	}
+	.parallax { 
+	  /* The image used */
+	  background-image: url("../upload/banners/back.jpg");
+
+	  /* Set a specific height */
+	  height: 100%; 
+
+	  /* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}	
+	.background {
+		background: 	rgba(0, 0, 0, 0.7);
+		height: 100%;
+	}
 	.services-post{
-		padding: 25px 0;
+		padding: 125px 0;
+		i {
+			@extend .round-icon;
+			width: 65px;
+			height: 65px;
+			line-height: 64px;
+			background: #f9fafb;
+			color: $title-color;
+			font-size: 40px;
+			// &:hover{
+			// 	background: $primary-color;
+			// 	color: white;
+			// }
+		}
+		h1 {
+			@extend .heading1;
+			padding-top: 25px;
+		}
+		p{
+			@extend .paragraph;
+		}
+		hr{
+			width: 60px;
+			height: 2px;
+			background: white;
+			// &:hover{
+			// 	background: $primary-color;
+			// }
+		}
+	
+		&:hover {
+		i{
+			background: $primary-color;
+			color: white;
+		}
+		hr{
+			background: $primary-color;
+		}
+		.btn-secondary{
+			background: $primary-color;
+			color: white;
+			border: none;
+			border-bottom: 3px solid $border-color; }
+		}
 	}
 	
 }
+

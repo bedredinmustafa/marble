@@ -48,6 +48,10 @@ section.slider-section:after {
 		.mission-post-text{
 			span {
 				@extend .round-icon;
+				display: inline-block;
+				float: left;
+				font-family: arial;
+	    		font-weight: 700;
 	    	&:hover{
 		    	background: #f9fafb;
 				color: #333;}
