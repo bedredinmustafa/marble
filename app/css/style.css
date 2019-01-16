@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800");
-.heading1, .heading2, a.btn-default, a.btn-secondary, .reasons-header h2, h1, .reasons-header h1, .services-container .services-post h1 {
+.heading1, .heading2, a.btn-default, a.btn-secondary, .reasons-header h2, .portfolio h2, h1, .reasons-header h1, .services-container .services-post h1 {
   color: #3a3d41;
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 10px; }
 
-.heading2, a.btn-default, a.btn-secondary, .reasons-header h2 {
+.heading2, a.btn-default, a.btn-secondary, .reasons-header h2, .portfolio h2 {
   font-size: 18px; }
 
 .paragraph, p, .services-container .services-post p {
@@ -186,3 +186,38 @@ section.slider-section:after {
     color: white;
     border: none;
     border-bottom: 3px solid #9e2114; }
+
+.services .reasons-header-dark {
+  padding: 60px 0;
+  color: white !important;
+  background: url("../images/pattern.png") center center; }
+  .services .reasons-header-dark .btn-default {
+    padding: 0 10px; }
+  .services .reasons-header-dark h1 {
+    color: white; }
+  .services .reasons-header-dark span {
+    padding-right: 10px; }
+  .services .reasons-header-dark i {
+    border-left: 1px solid #9e2114;
+    padding: 15px 5px 15px 20px; }
+
+.portfolio {
+  width: 100%;
+  padding: 60px 0; }
+  .portfolio .container-fluid {
+    padding: 0;
+    width: 100%; }
+  .portfolio h2 {
+    color: #999999;
+    font-weight: 300; }
+  .portfolio .col-md-3 {
+    padding: 0 !important; }
+  .portfolio img {
+    width: 100%; }
+  .portfolio .portfolio-holder {
+    padding: 60px 0; }
+    .portfolio .portfolio-holder .row {
+      width: 100%;
+      margin: 0; }
+  .portfolio .item-name {
+    padding: 25px 0; }

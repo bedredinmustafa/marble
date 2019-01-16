@@ -1,0 +1,29 @@
+.portfolio {
+	width: 100%;
+	.container-fluid{
+		padding: 0;
+		width: 100%;
+	}
+	padding: 60px 0;
+	h2{
+		@extend .heading2;
+		color: #999999;
+		font-weight: 300;
+	} 
+	.col-md-3{
+		padding: 0!important;
+	}
+	img{
+		width: 100%;
+	}
+	.portfolio-holder {
+		padding: 60px 0;
+		.row{
+			width: 100%;
+			margin: 0;
+		}
+	}
+	.item-name{
+		padding: 25px 0;
+	}
+}

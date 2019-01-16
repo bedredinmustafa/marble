@@ -90,6 +90,24 @@
 			border-bottom: 3px solid $border-color; }
 		}
 	}
+
 	
 }
-
+.services .reasons-header-dark{
+		padding: 60px 0;
+		color: white!important;
+		background: url('../images/pattern.png') center center;
+		.btn-default{
+			padding: 0 10px;
+		}
+		h1{
+			color: white;
+		}
+		span{
+			padding-right: 10px;
+		}
+		i{
+			border-left: 1px solid #9e2114;
+			padding: 15px 5px 15px 20px;
+		}
+	}
