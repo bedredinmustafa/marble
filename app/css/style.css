@@ -269,3 +269,47 @@ section.slider-section:after {
     font-weight: 800;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom: 3px solid rgba(0, 0, 0, 0.3); }
+
+.features {
+  padding-bottom: 60px; }
+  .features .parallax {
+    /* The image used */
+    background-image: url("../upload/banners/back2.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .features .parallax .background {
+      background: rgba(0, 0, 0, 0.5);
+      height: 100%; }
+    .features .parallax .container {
+      padding-top: 60px;
+      margin-bottom: -40px; }
+      .features .parallax .container h1 {
+        color: white; }
+      .features .parallax .container .btn-default {
+        font-size: 18px;
+        padding: 10px 15px; }
+      .features .parallax .container .features-post {
+        padding-top: 60px; }
+        .features .parallax .container .features-post i {
+          float: left;
+          color: white;
+          height: 40px;
+          width: 40px;
+          line-height: 40px;
+          border: 2px solid white;
+          border-radius: 50%;
+          text-align: center; }
+        .features .parallax .container .features-post .features-post-holder {
+          padding: 10px 0; }
+        .features .parallax .container .features-post .features-post-text {
+          margin: 12px 0 0 65px; }
+          .features .parallax .container .features-post .features-post-text h2 {
+            font-size: 18px;
+            color: white;
+            font-weight: 800;
+            padding-bottom: 5px; }
