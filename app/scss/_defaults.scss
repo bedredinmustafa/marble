@@ -37,6 +37,19 @@ $text-color: #999999;
 	color: $text-color;
 	margin: 0 0 20px;
 }
+// .parallax{
+// 		  /* The image used */
+// 		background-image: url("../upload/banners/back2.jpg");
+
+// 		  /* Set a specific height */
+// 		height: 100%; 
+
+// 		  /* Create the parallax scrolling effect */
+// 		background-attachment: fixed;
+// 		background-position: center;
+// 		background-repeat: no-repeat;
+// 		background-size: cover;
+// 		}
 
 //variable for radius corners
 @mixin border-radius($radius) {

@@ -1,0 +1,17 @@
+.latest-post {
+	.text-center{
+		padding: 60px 0;
+		h2{
+			@extend .heading2;
+			color: $text-color;
+			font-weight: 400;
+			padding-bottom: 60px;
+		}
+		img{
+			width: 100%;
+		}
+		.col-md-4 {
+			padding: 0 10px;
+		}
+	}
+}
