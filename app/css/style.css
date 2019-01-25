@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800");
-.heading1, .heading2, a.btn-default, a.btn-secondary, .reasons-header h2, .portfolio h2, .latest-post .text-center h2, h1, .reasons-header h1, .services-container .services-post h1 {
+.heading1, .heading2, a.btn-default, a.btn-secondary, .reasons-header h2, .portfolio h2, .latest-post .text-center h2, .client-container h2, h1, .reasons-header h1, .services-container .services-post h1 {
   color: #3a3d41;
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 10px; }
 
-.heading2, a.btn-default, a.btn-secondary, .reasons-header h2, .portfolio h2, .latest-post .text-center h2 {
+.heading2, a.btn-default, a.btn-secondary, .reasons-header h2, .portfolio h2, .latest-post .text-center h2, .client-container h2 {
   font-size: 18px; }
 
 .paragraph, p, .services-container .services-post p {
@@ -27,6 +27,9 @@
 
 body {
   font-family: "Raleway", sans-serif; }
+
+.container-fluid {
+  padding: 0; }
 
 a {
   display: inline-block;
@@ -355,3 +358,88 @@ section.slider-section:after {
     width: 100%; }
   .latest-post .text-center .col-md-4 {
     padding: 0 10px; }
+    .latest-post .text-center .col-md-4 .latest-single-post .post-content {
+      height: 90px; }
+      .latest-post .text-center .col-md-4 .latest-single-post .post-content .date-post {
+        float: left;
+        background: blue;
+        height: 90px;
+        width: 60px;
+        padding: 12px 2px;
+        background: #3a3d41; }
+        .latest-post .text-center .col-md-4 .latest-single-post .post-content .date-post p {
+          color: white;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: center;
+          line-height: 1.5; }
+        .latest-post .text-center .col-md-4 .latest-single-post .post-content .date-post span {
+          font-size: 24px;
+          font-weight: 700;
+          border-bottom: 1px solid white;
+          padding-bottom: 5px; }
+      .latest-post .text-center .col-md-4 .latest-single-post .post-content .post-content-data {
+        padding: 18px 20px;
+        margin-left: 60px;
+        text-align: left; }
+        .latest-post .text-center .col-md-4 .latest-single-post .post-content .post-content-data h2 {
+          padding: 0;
+          margin: 0;
+          font-weight: 700;
+          color: #3a3d41;
+          text-transform: uppercase; }
+    .latest-post .text-center .col-md-4 .latest-single-post:hover .date-post {
+      background: #e74c3c; }
+
+.latest-post .post-buttons .btn {
+  font-size: 14px;
+  padding: 10px;
+  margin: 0 10px;
+  background: transparent;
+  color: #3a3d41;
+  font-weight: 800;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3); }
+
+.client-container {
+  padding: 60px 0;
+  background: #F9FAFB; }
+  .client-container h2 {
+    color: #999999;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 60px; }
+  .client-container ul {
+    padding: 0;
+    margin: 0;
+    display: inline; }
+  .client-container li {
+    display: inline-block;
+    padding: 0 32px; }
+    .client-container li img {
+      width: 100%; }
+
+.social-media-container {
+  padding: 20px 0;
+  background: #e74c3c; }
+  .social-media-container ul {
+    display: inline; }
+  .social-media-container li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center; }
+    .social-media-container li a {
+      width: 40px;
+      height: 40px; }
+    .social-media-container li i {
+      color: white;
+      font-size: 22px;
+      line-height: 40px;
+      padding: 0 10px;
+      text-align: center;
+      border: 1px solid transparent; }
+      .social-media-container li i:hover {
+        border: 1px solid white;
+        width: 40px;
+        height: 40px; }

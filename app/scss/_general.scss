@@ -1,7 +1,9 @@
 body {
 	font-family: $font-default;
 }
-
+.container-fluid{
+	padding: 0;
+}
 h1 {
 	@extend .heading1;
 }

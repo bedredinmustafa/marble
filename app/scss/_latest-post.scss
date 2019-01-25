@@ -12,6 +12,59 @@
 		}
 		.col-md-4 {
 			padding: 0 10px;
+			.latest-single-post {
+
+				.post-content{
+					height: 90px;
+					.date-post {
+						float: left;
+						background: blue;
+						height: 90px;
+						width: 60px;
+						padding: 12px 2px;
+						background: $title-color;
+						p{
+							color: white;
+							font-size: 18px;
+							font-weight: 400;
+							text-align: center;
+							line-height: 1.5;}
+						span{
+							font-size: 24px;
+							font-weight: 700;
+							border-bottom: 1px solid white;
+							padding-bottom: 5px;}
+					}
+					.post-content-data {
+						padding: 18px 20px;
+						margin-left: 60px;
+						text-align: left;
+						h2{
+							padding: 0;
+							margin: 0;
+							font-weight: 700;
+							color: $title-color;
+							text-transform: uppercase;}
+					}							
+				}
+				&:hover{
+					.date-post{
+						background: $primary-color;
+					}
+				}				
+			}
+		}
+	}
+	.post-buttons{
+		.btn{
+			font-size: 14px;
+			padding:10px;
+			margin:0 10px;
+			background: transparent;
+			color: $title-color;
+			font-weight: 800;
+			border: 1px solid rgba(0, 0, 0, 0.2);
+			border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 		}
 	}
 }
