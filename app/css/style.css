@@ -443,3 +443,47 @@ section.slider-section:after {
         border: 1px solid white;
         width: 40px;
         height: 40px; }
+
+.footer-container {
+  background: url("../images/pattern.png") center center;
+  padding: 60px 0 20px 0; }
+  .footer-container h1, .footer-container p {
+    color: white; }
+  .footer-container h1 {
+    padding-bottom: 20px; }
+  .footer-container i {
+    float: left;
+    display: inline-block;
+    color: white; }
+  .footer-container ul {
+    margin: 0;
+    padding: 0; }
+  .footer-container li {
+    display: inline-block;
+    margin-bottom: 30px; }
+    .footer-container li p, .footer-container li span {
+      margin: 0 0 0 30px; }
+    .footer-container li a {
+      color: #e74c3c; }
+    .footer-container li span {
+      color: #999999;
+      font-size: 13px; }
+  .footer-container .flickr li {
+    margin-bottom: 5px; }
+  .footer-container .subscribe button, .footer-container .subscribe input {
+    border-radius: 0;
+    font-size: 14px; }
+  .footer-container .subscribe button {
+    background: #e74c3c;
+    border-color: #e74c3c;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-transform: uppercase; }
+  .footer-container .copyrights {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #999999; }
+    .footer-container .copyrights p {
+      color: #999999;
+      padding-bottom: 0;
+      margin-bottom: 0; }

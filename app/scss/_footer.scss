@@ -1,0 +1,58 @@
+.footer-container{
+	background: url('../images/pattern.png') center center;
+	padding: 60px 0 20px 0;
+	h1,p {
+	color: white;}
+	h1{
+		padding-bottom: 20px;}
+	i{
+		float: left;
+		display: inline-block;
+		color: white;}
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		display: inline-block;
+		margin-bottom: 30px;
+		p, span{
+			margin: 0 0 0 30px;
+		}
+		a{
+			color: $primary-color;
+		}
+		span{
+			color: $text-color;
+			font-size: 13px;
+		}
+	}
+	.flickr{
+		li{
+			margin-bottom: 5px;
+		}
+	}
+	.subscribe{
+		button, input{
+			border-radius: 0;
+			font-size: 14px;
+		}
+		button{
+			background: $primary-color;
+			border-color: $primary-color;
+			padding-left: 8px;
+			padding-right: 8px;
+			text-transform: uppercase;
+		}
+	}
+	.copyrights{
+		margin-top: 50px;
+		padding-top: 30px;
+		border-top: 1px solid $text-color;
+		p{
+			color: $text-color;
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+	}
+}
